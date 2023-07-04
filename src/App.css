@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+/* body {
+  background-image: url("./blue\ image\ .avif") ;
+background-size: cover;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.state--title{
+  color: rgb(212, 84, 174);
+  box-shadow: rgba(232, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, #90060612 0px 32px 64px;
+  border: solid black 10px;
+  background-color: rgb(106, 106, 106);
+  border-radius: 20px;
+}
+.state--value{
+  color: rgb(212, 84, 174);
+  box-shadow: rgba(232, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, #90060612 0px 32px 64px;
+  border: solid black 10px;
+  background-color: rgb(106, 106, 106);
+  border-radius: 60px;
+  width: 90px;
+}
+.state--value h1 {
+  margin-left: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.state--title h1 {
+  margin-left: 20px;
+} */
+
+body {
+  background-image: url("./blue\ image\ .avif") ;
+background-size: cover;
+
+} *
+.counter > button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: #737373;
+  color: #D9D9D9;
+  font-size: 1.5rem;
+  margin-left: 200px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.counter > button:hover {
+  background-color: #404040;
+  color: #D9D9D9;
+}
+
+.counter > button:focus {
+  outline: none;
+ 
+}
+
+
+.counter--count {
+  margin-left: 200px;
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  color: #262626;
 }
 
-.App-link {
-  color: #61dafb;
+.counter--plus {
+  margin-left: -20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.counter--minus {
+  margin-right: -20px;
+  z-index: 1;
 }
+
