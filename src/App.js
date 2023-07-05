@@ -148,3 +148,20 @@ setCount(prevCount => prevCount -1)
 }
 
 export default App;
+
+
+
+// 1. You have 2 options for what you can pass in to a
+//    state setter function (e.g. `setCount`). What are they?
+// new value like (setCount(42)) whenever state gets called it will directly change to the number 42
+// Callback function - whatever the callback function returns === new value of state
+
+
+// 2. When would you want to pass the first option (from answer
+//    above) to the state setter function? 
+// we use the first option when we dont care what the first value of state is and or we only need to chaneg it once like hard coded 
+
+
+// 3. When would you want to pass the second option (from answer
+//    above) to the state setter function?
+// when we need the the previous vaule of state to help determine the new value of state 
